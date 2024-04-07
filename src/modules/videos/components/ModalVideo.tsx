@@ -46,11 +46,7 @@ export const ModalVideo = ({ video }: { video: Video | undefined }) => {
           x
         </ModalContainer.CloseButton>
         <ModalContainer.Title>{video.title}</ModalContainer.Title>
-        <dl8-video
-          title="Example Video"
-          author="Jane Doe"
-          format="STEREO_360_LR"
-        >
+        <dl8-video title={video.title} format="STEREO_360_LR">
           <source src={video.trailer} type="video/mp4" />
         </dl8-video>
         {/* <ModalContainer.VideoContainer controls autoPlay>
