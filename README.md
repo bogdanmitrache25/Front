@@ -31,7 +31,7 @@ npm start
 yarn start
 ```
 
-2. Open your browser and navigate to `http://localhost:3000`.
+2. Open your browser and navigate to `http://localhost:5173`.
 
 ### Features
 
