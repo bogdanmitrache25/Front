@@ -1,4 +1,4 @@
-## Project's name
+## Technical Test
 
 ### Description
 
